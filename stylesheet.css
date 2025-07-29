@@ -1,0 +1,681 @@
+body {
+	margin: 0px;
+	background-image: url(/assets/images/グリッド背景.png);
+	background-attachment: local;
+	position: relative;
+	background-size: cover;
+}
+/* ヘッダー */
+
+.左上アイコン {
+	position: fixed;
+	top: 40px;
+	left: 40px;
+	background-color: #c9171e;
+	border: solid 4px white;
+  width: 20px;
+  height: 20px;
+  box-shadow:0 0 0 4px #c9171e;
+	z-index: 3;
+}
+
+.ヘッダー右上 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+	.ヘッダー：WORKS {
+		text-decoration: none;
+		position: fixed;
+		top: 40px;
+		right: 270px;
+		z-index: 3;
+		transition: 0.25s; 
+	}
+	.ヘッダー：WORKS:hover {
+	  color: #c9171e;
+  }
+	
+	& .ヘッダー：ABOUT {
+		position: fixed;
+		top: 40px;
+		right: 177px;
+		z-index: 3;
+		transition: 0.25s; 
+	}
+	.ヘッダー：ABOUT:hover {
+	  color: #c9171e;
+  }
+	
+	& .ヘッダー：STORE {
+		position: fixed;
+		top: 40px;
+		right: 190px;
+		z-index: 3;
+		transition: 0.25s; 
+	}
+	.ヘッダー：STORE:hover {
+	  color: #c9171e;
+  }
+	
+	& .ヘッダー：CONTACT {
+		position: fixed;
+		top: 40px;
+		right: 70px;
+		z-index: 3;
+		transition: 0.25s;  
+	}
+	.ヘッダー：CONTACT:hover {
+	  color: #c9171e;
+  }
+
+}
+
+/* メインビジュアル */
+
+.サイトタイトル {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	color: #c9171e;
+	
+	& .サイトタイトル上 {
+		position: absolute;
+		top: 290px;
+		left: 68px;
+		letter-spacing: 6.7px;
+		z-index: 2;
+		font-size: 39px;
+		padding: 2px;
+	}
+	& .サイトタイトル下 {
+		position: absolute;
+		top: 260px;
+		left: 74px;
+		letter-spacing: 3px;
+		z-index: 2;
+		font-size: 20px;
+	}
+}
+
+.メインビジュアル {
+	position: absolute;
+	width: 60%;
+	z-index: 0;
+	top: 115px;
+	right: 120px;
+	box-shadow: 0px 0px 10px rgba(36,20,14,0.2);
+	z-index: 1;
+}
+
+.メインビジュアルbackground {
+	position: absolute;
+	top: 180px;
+  left: 120px;
+  width: 880px;
+  height: 240px;
+  background:  linear-gradient(to bottom right, #f5f5f5, #dcdcdc);
+	opacity: 0.85;
+	z-index: 0;
+	box-shadow: 10px 10px 10px rgba(36,20,14,0.2);
+}
+
+
+.左上background {
+	position: absolute;
+	top: -480px;
+  left: -300px;
+	width: 630px;
+  height: 600px;
+  background: #c9171e;
+  transform: rotate(66deg);
+	z-index: -2;
+}
+
+/* WORKS */
+
+.WORKS {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	position: absolute;
+	top: 660px;
+	left: 72px;
+	letter-spacing: 6.7px;
+	z-index: 2;
+	font-size: 39px;
+	color: black;
+}
+
+.WORKSbackground {
+  position: absolute;
+	top: 688px;
+  width: 1000px;
+  height: 1410px;
+  background:  linear-gradient(to bottom right, #f5f5f5, #dcdcdc);
+	opacity: 0.85;
+	z-index: -2;
+	box-shadow: 10px 10px 10px rgba(36,20,14,0.2)
+}
+
+
+.WORKS画像1background {
+  position: absolute;
+	top: 800px;
+  width: 675px;
+  height: 265px;
+	background-color: #c9171e;
+	z-index: -2;
+}
+
+.WORKS画像1 {
+	position: absolute;
+	top: 800px;
+	width: 65%;
+	transition: 0.3s;
+}
+
+.WORKS画像1:hover {
+	transform: scale(1.1);
+}
+
+.WORKS画像1ビジュアル文 {
+  font-family: "din-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+	position: absolute;
+	top: 780px;
+	right: 55px;
+	letter-spacing: -3px;
+	font-size: 100px;
+	color: #c9171e;
+	opacity: 1;
+}
+
+.WORKS画像1説明文 {
+	position: absolute;
+	top: 910px;
+	right: 190px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+	letter-spacing: 3.5px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.WORKS画像2 {
+	position: absolute;
+	top: 1220px;
+	width: 65%;
+	transition: 0.3s;
+}
+.WORKS画像2:hover {
+	transform: scale(1.1);
+}
+
+.WORKS画像2background {
+  position: absolute;
+	top: 1220px;
+  width: 675px;
+  height: 265px;
+	background-color: #c9171e;
+	z-index: -2;
+}
+
+.WORKS画像2ビジュアル文 {
+  font-family: "din-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+	position: absolute;
+	top: 1214px;
+	right: 130px;
+	letter-spacing: -3px;
+	line-height: 85px;
+	font-size: 100px;
+	color: #c9171e;
+	opacity: 1;
+}
+
+.WORKS画像2説明文 {
+	position: absolute;
+	top: 1410px;
+	right: 150px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+	letter-spacing: 3.5px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.WORKS画像3 {
+	position: absolute;
+	top: 1640px;
+	width: 64.6%;
+	transition: 0.3s;
+}
+.WORKS画像3:hover {
+	transform: scale(1.1);
+}
+
+.WORKS画像3background {
+  position: absolute;
+	top: 1640px;
+  width: 675px;
+  height: 265px;
+	background-color: #c9171e;
+	z-index: -2;
+}
+
+.WORKS画像3ビジュアル文 {
+  font-family: "din-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+	position: absolute;
+	top: 1634px;
+	right: 192px;
+	letter-spacing: -3px;
+	line-height: 85px;
+	font-size: 100px;
+	color: #c9171e;
+	opacity: 1;
+}
+
+.WORKS画像3説明文 {
+	position: absolute;
+	top: 1830px;
+	right: 210px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+	letter-spacing: 3.5px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/*VIEWMOREボタン*/
+a.VIEWMORE {
+	position: absolute;
+  top: 2000px;
+  right: 100px;
+  overflow: hidden;
+  padding: 0.7rem 3.5rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+	text-decoration: none; /* リンクの下線消し */
+	box-shadow: 7px 7px rgba(36,20,14,0.35);
+}
+
+a.VIEWMORE span {
+  position: relative;
+}
+
+a.VIEWMORE:before {
+  position: absolute;
+  top: 40px;
+  left: 55px;
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  background: #c9171e;
+}
+
+a.VIEWMORE:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(135deg);
+  transform: translateX(-9%) translateY(-25%) rotate(135deg);
+}
+/*VIEWMOREボタン*/
+
+/* ABOUT */
+
+.ABOUT {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	position: absolute;
+	top: 2320px;
+	left: 150px;
+	letter-spacing: 6.7px;
+	z-index: 2;
+	font-size: 39px;
+	color: black;
+}
+
+.ABOUTbackground {
+  position: absolute;
+	top: 2340px;
+	right: 0px;
+  width: 800px;
+  height: 240px;
+  background:  linear-gradient(to bottom right, #f5f5f5, #dcdcdc);
+	opacity: 0.85;
+	z-index: -2;
+	box-shadow: 10px 10px 10px rgba(36,20,14,0.2)
+}
+
+.ABOUT画像 {
+	position: absolute;
+	top: 2340px;
+	right: 80px;
+  width: 36%;
+	/* box-shadow: 10px 10px 10px rgba(36,20,14,0.35); */
+}
+
+.ABOUTテキスト {
+	position: absolute;
+	top: 2420px;
+	left: 178px;
+	letter-spacing: 3px;
+	font-size: 14px;
+	line-height: 33px;
+	font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+}
+
+/*VIEWMORE2ボタン*/
+a.VIEWMORE2 {
+	position: absolute;
+  top: 2650px;
+  right: 100px;
+  overflow: hidden;
+  padding: 0.7rem 3.5rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+	text-decoration: none; /* リンクの下線消し */
+	box-shadow: 7px 7px rgba(36,20,14,0.35);
+}
+
+a.VIEWMORE2 span {
+  position: relative;
+}
+
+a.VIEWMORE2:before {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  background: #c9171e;
+}
+
+a.VIEWMORE2:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(135deg);
+  transform: translateX(-9%) translateY(-25%) rotate(135deg);
+}
+/*VIEWMOREボタン*/
+
+/* CONTACT */
+
+.CONTACT {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	position: absolute;
+	top: 2880px;
+	left: 150px;
+	letter-spacing: 6.7px;
+	z-index: 2;
+	font-size: 39px;
+	color: black;
+}
+
+.CONTACTbackground {
+  position: absolute;
+	top: 2900px;
+	left: 0px;
+  width: 700px;
+  height: 190px;
+  background:  linear-gradient(to bottom right, #f5f5f5, #dcdcdc);
+	opacity: 0.85;
+	z-index: -2;
+	box-shadow: 10px 10px 10px rgba(36,20,14,0.2)
+}
+
+.CONTACTテキスト {
+	position: absolute;
+	top: 2960px;
+	left: 178px;
+	letter-spacing: 3px;
+	font-size: 14px;
+	line-height: 33px;
+	font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+}
+
+/*CONTACTボタン*/
+a.CONTACT {
+	position: absolute;
+  top: 3010px;
+  left: 645px;
+  overflow: hidden;
+  padding: 0.7rem 3.5rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+	letter-spacing: 2px;
+	text-decoration: none; /* リンクの下線消し */
+	box-shadow: 7px 7px rgba(36,20,14,0.35);
+}
+
+a.CONTACT span {
+  position: relative;
+}
+
+a.CONTACT:before {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  background: #c9171e;
+}
+
+a.CONTACT:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(135deg);
+  transform: translateX(-9%) translateY(-25%) rotate(135deg);
+}
+/*CONTACTボタン*/
+
+/* フッター */
+
+.フッター：サイトタイトル {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	color: white;
+	
+	& .フッター：サイトタイトル：上 {
+		position: absolute;
+		top: 3310px;
+		left: 60px;
+		letter-spacing: 6.7px;
+		z-index: 2;
+		font-size: 23px;
+		padding: 2px;
+	}
+	& .フッター：サイトタイトル：下 {
+		position: absolute;
+		top: 3285px;
+		left: 64px;
+		letter-spacing: 3px;
+		z-index: 2;
+		font-size: 15px;
+	}
+}
+
+.フッターbackground {
+	position: absolute;
+	top: 3250px;
+	left: 0px;
+  width: 1000px;
+  height: 170px;
+  background: #c9171e;
+	z-index: -2;
+}
+
+.フッター内容 {
+	font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 510;
+  font-style: normal;
+	color: white;
+	letter-spacing: 4px;
+	font-size: 18px;
+		
+	& .フッター：HOME {
+		 position: absolute;
+    display: inline-block;
+		top: 3305px;
+		left: 400px;
+	}
+  & .フッター：HOME::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: .3s;
+  }
+  & .フッター：HOME:hover::after {
+    width: 100%;
+  }
+	
+	& .フッター：WORKS {
+		position: absolute;
+    display: inline-block;
+		top: 3305px;
+		left: 525px;
+	}
+		.フッター：WORKS::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: .3s;
+  }
+  & .フッター：WORKS:hover::after {
+    width: 100%;
+  }
+
+	& .フッター：ABOUT {
+		position: absolute;
+    display: inline-block;
+		top: 3305px;
+		left: 670px;
+	}
+		.フッター：ABOUT::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: .3s;
+  }
+  & .フッター：ABOUT:hover::after {
+    width: 100%;
+  }
+	
+	& .フッター：ONLINESTORE {
+		position: absolute;
+    display: inline-block;
+		top: 3327px;
+		left: 600px;
+	}
+		.フッター：ONLINESTORE::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: .3s;
+  }
+  & .フッター：ONLINESTORE:hover::after {
+    width: 100%;
+  }
+	
+	& .フッター：CONTACT {
+		position: absolute;
+    display: inline-block;
+		top: 3305px;
+		left: 810px;
+	}
+		.フッター：CONTACT::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: .3s;
+  }
+  & .フッター：CONTACT:hover::after {
+    width: 100%;
+  }
+}
+
+.Xアイコン {
+	position: absolute;
+	top: 3427px;
+	left: 600px;
+	width: 3%;
+	transition: 0.25s; 
+}
+.インスタアイコン {
+	position: absolute;
+	top: 3427px;
+	left: 650px;
+	width: 3%;
+	transition: 0.25s; 
+}
+
+
+
+
+
